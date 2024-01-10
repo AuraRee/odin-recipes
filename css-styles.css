@@ -1,3 +1,7 @@
+.indexbgcolor {
+    background: linear-gradient(90deg, rgb(253, 253, 253) 50%, rgb(255, 186, 186), rgb(255, 183, 100));
+}
+
 body {
     font-family: "Comic Sans MS" ;
     background-color: antiquewhite;
@@ -6,6 +10,20 @@ body {
 
 h1, h2 {
     color: rgba(0, 0, 0, 0.781);
+}
+
+nav, .links {
+    border: 5px dotted blanchedalmond;
+    display: flex;
+}
+ 
+.links a {
+    background-color: rgb(179 57 81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    display: inline-block;
+    border: 1px solid black;
 }
 
 img {
